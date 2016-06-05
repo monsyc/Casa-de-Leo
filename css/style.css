@@ -1,0 +1,167 @@
+body{
+	font-family: 'Dosis', sans-serif;
+}
+
+/*Navigation Bar*/
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+@media (min-width: 768px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0 !important;
+	}
+	.navbar-default{
+		background-color: #282F3F !important;
+		padding: 5px 0 !important;
+	}
+}
+
+.logo{
+	width: 250px;
+	margin: 0 auto;
+}
+
+.navbar-brand {
+	padding:0 15px 15px 15px !important; 
+}
+
+.cont{
+	width: 1520px;
+	margin: auto;
+}
+@media (max-width: 1519px){
+	.cont{
+		width: 100%;
+		margin: auto;
+	}
+}
+
+.intro-havana{
+	font-size: 40px;
+	font-weight: 500;
+}
+
+/*INFO*/
+
+.images-info{
+	padding: 5px !important;
+}
+
+.images-info-text{
+	padding: 5px !important;
+	position: absolute !important;
+	bottom: 0 !important;
+}
+
+.text-info{
+	margin-bottom: 1px !important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	color: #282F3F !important;
+	font size: 12px !important;
+}
+
+/*RESTAURANT*/
+
+.text-info-restaurant{
+	float: right;
+	padding-left: 0 !important;
+	margin-bottom: 1px !important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	color: #282F3F !important;
+	font size: 12px !important;
+}
+
+.text-info-places{
+	margin-bottom: 1px !important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	color: #282F3F !important;
+	font size: 12px !important;
+	padding-left: 0 !important;
+}
+
+/*EVENTS*/
+
+.img-events{
+	padding: 0 5px !important;
+}
+
+.img-events-f{
+	padding: 0 10px 0 0 !important;
+}
+
+.img-events-l{
+	padding: 0 0 0 10px !important;
+}
+
+.text-info-events{
+	float: right;
+	padding-right: 10px !important;
+	padding-left: 0 !important;
+	margin-bottom: 1px !important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	color: #282F3F !important;
+	font size: 12px !important;
+}
+
+/*CONTACT*/
+
+.form-control{
+    border-radius: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.submit{
+    float: right;
+    margin-top: 10px !important;
+}
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+.guest{
+    margin-bottom: 5px;
+}
+
+select:not([multiple]) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+    padding: .5em;
+    padding-right: 1.5em
+}
+
+.btn{
+    border-radius: 0 !important;
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #d95040;
+    border-color: #d95040;
+}
+
+#mySelect {
+    border-radius: 0;
+}
+
+textarea.form-control {
+    height: 100px;
+    margin-top: 10px;
+}
