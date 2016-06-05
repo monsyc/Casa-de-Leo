@@ -15,15 +15,7 @@ body{
     z-index:3;
 }
 
-@media (min-width: 768px) {
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 0 !important;
-	}
-	.navbar-default{
-		background-color: #282F3F !important;
-		padding: 5px 0 !important;
-	}
-}
+
 
 .logo{
 	width: 250px;
@@ -34,16 +26,34 @@ body{
 	padding:0 15px 15px 15px !important; 
 }
 
-.cont{
-	width: 1520px;
-	margin: auto;
+/*HEADER*/
+
+header {
+  background-image: url('../img/home/imagen-01.jpg');
+  background-repeat: none;
+  width: 100%;
+  background-attachment: scroll;
+  background-position: center bottom ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+/*  text-align: center;*/
+  color: white;
+  margin-bottom: 100px;
 }
-@media (max-width: 1519px){
-	.cont{
-		width: 100%;
-		margin: auto;
-	}
+
+header  {
+    height: 80vh;
+  }
+
+header .intro-text {
+    padding-top: 80vh;
+    padding-left: 85vh;
+    color: #282F3F;
 }
+
+
 
 .intro-havana{
 	font-size: 40px;
@@ -69,12 +79,24 @@ body{
 	color: #282F3F !important;
 	font size: 12px !important;
 }
+.text-info-xs{
+	text-align: right;
+}
 
 /*RESTAURANT*/
 
 .text-info-restaurant{
-	float: right;
-	padding-left: 0 !important;
+	text-align: right;
+	padding-left: 5 !important;
+	margin-bottom: 1px !important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	color: #282F3F !important;
+	font size: 12px !important;
+}
+.text-info-restaurant-xs{
+	text-align: left;
+	padding-left: 5 !important;
 	margin-bottom: 1px !important;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
@@ -93,21 +115,21 @@ body{
 
 /*EVENTS*/
 
-.img-events{
+/*.img-events{
 	padding: 0 5px !important;
 }
 
 .img-events-f{
-	padding: 0 10px 0 0 !important;
+	margin: 0 10px 0 0 !important;
 }
 
 .img-events-l{
 	padding: 0 0 0 10px !important;
-}
+}*/
 
 .text-info-events{
 	float: right;
-	padding-right: 10px !important;
+	padding-right: 20px !important;
 	padding-left: 0 !important;
 	margin-bottom: 1px !important;
 	font-family: 'Dosis', sans-serif;
@@ -167,6 +189,14 @@ textarea.form-control {
     margin-top: 10px;
 }
 
+.select-option{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.select-option-two{
+	padding-left: 10px;
+	padding-top: 5px;
+}
 
 button, input, select, textarea {
     font-family: 'Dosis', sans-serif !important;
@@ -196,8 +226,126 @@ footer{
 	font-weight: 400;
 	text-align: right;
 	color: white;
+	margin-right: 20px;
+	background-color: #282F3F;
 }
 
 .link{
 	color: white !important;
+}
+
+@media (max-width: 1519px){
+	.cont{
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+    .cont{
+        max-width: 1520px !important;
+        margin:auto;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+	header .intro-text {
+    padding-left: 75vh;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0 !important;
+	}
+	.navbar-default{
+		background-color: #282F3F !important;
+		padding: 5px 0 !important;
+	}
+}
+
+@media (max-width: 991px){
+	header .intro-text {
+    padding-left: 55vh;
+	}
+}
+
+
+@media (max-width: 767px){
+	header {
+  		background-image: url('../img/home/images-02-01.jpg');
+	}
+	header .intro-text {
+    	font-family: 'Dosis', sans-serif !important;
+	}
+	.intro-lead-in{
+		font-size: 25px;
+		line-height: 30px;
+
+	}
+	.logo{
+		margin: 0;
+		width: 200px;
+	}
+	.navbar-brand {
+    padding: 0 15px 15px 0 !important;
+
+	}
+	.navbar-default {
+    background-color: #282F3F !important;
+	}
+	li{
+		text-align: center;
+	}
+}
+
+@media (max-width: 680px){
+	header .intro-text {
+    padding-left: 42vh;
+	}
+	.intro-havana {
+    font-size: 30px;
+	}
+}
+
+@media (max-width: 570px){
+	header {
+  		background-image: url('../img/home/images-03-01.jpg');
+	}
+	header .intro-text {
+    padding-left: 35vh;
+	}
+	.footer-text{
+		margin-left: 20px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px){
+	header .intro-text {
+    padding-left: 25vh;
+	}
+}
+
+@media (max-width: 440px){
+	header .intro-text {
+    	padding-left: 19vh;
+	}
+
+}
+
+@media (max-width: 409px){
+	footer{
+		height: 90px;
+	}	
+	header .intro-text {
+    	padding-left: 15vh;
+	}
+	.intro-lead-in{
+		font-size: 18px;
+		line-height: 30px;
+
+	}
 }
