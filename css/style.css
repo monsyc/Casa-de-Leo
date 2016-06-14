@@ -30,7 +30,7 @@ body{
 
 header {
   background-image: url('../img/home/imagen-01.jpg');
-  background-repeat: none;
+  background-repeat: no-repeat;
   width: 100%;
   background-attachment: scroll;
   background-position: center bottom ;
@@ -44,11 +44,13 @@ header {
 }
 
 header  {
-    height: 80vh;
+    /*height: 80vh;*/
+    height: 400px;
   }
 
 header .intro-text {
-    padding-top: 80vh;
+    /*padding-top: 75vh;*/
+    padding-top: 380px;
     padding-left: 85vh;
     color: #282F3F;
 }
@@ -127,6 +129,18 @@ header .intro-text {
 	padding: 0 0 0 10px !important;
 }*/
 
+.text-info-event-href{
+	float: right;
+	padding-right: 20px !important;
+	padding-left: 0 !important;
+	margin-top: 10px !important;
+	margin-bottom: 1px !important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	color: red !important;
+	font-size: 16px !important;
+}
+
 .text-info-events{
 	float: right;
 	padding-right: 20px !important;
@@ -157,6 +171,11 @@ header .intro-text {
 
 .guest{
     margin-bottom: 5px;
+}
+
+.visible-sizes{
+	position:absolute; 
+	bottom:0;
 }
 
 select:not([multiple]) {
@@ -268,7 +287,7 @@ footer{
 
 @media (max-width: 991px){
 	header .intro-text {
-    padding-left: 55vh;
+    padding-left: 40vh;
 	}
 }
 
@@ -315,7 +334,7 @@ footer{
   		background-image: url('../img/home/images-03-01.jpg');
 	}
 	header .intro-text {
-    padding-left: 35vh;
+    	padding-left: 35vh;
 	}
 	.footer-text{
 		margin-left: 20px;
@@ -327,6 +346,7 @@ footer{
 	header .intro-text {
     padding-left: 25vh;
 	}
+
 }
 
 @media (max-width: 440px){

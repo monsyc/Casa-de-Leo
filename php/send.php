@@ -10,6 +10,7 @@
   $checkOutDay = $_POST['checkOutDay'];
 
   $guestNumber = $_POST['guestNumber'];
+  $roomNumber = $_POST['roomNumber'];
 
   $text = $_POST['text'];
 
