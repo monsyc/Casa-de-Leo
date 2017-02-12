@@ -51,7 +51,7 @@ header  {
 header .intro-text {
     /*padding-top: 75vh;*/
     padding-top: 380px;
-    padding-left: 85vh;
+    padding-left: 700px;
     color: #282F3F;
 }
 
@@ -271,7 +271,7 @@ footer{
 
 @media (max-width: 1199px) {
 	header .intro-text {
-    padding-left: 75vh;
+    padding-left: 600px;
 	}
 }
 
@@ -287,7 +287,7 @@ footer{
 
 @media (max-width: 991px){
 	header .intro-text {
-    padding-left: 40vh;
+    padding-left: 380px;
 	}
 }
 
@@ -322,7 +322,7 @@ footer{
 
 @media (max-width: 680px){
 	header .intro-text {
-    padding-left: 42vh;
+    padding-left: 320px;
 	}
 	.intro-havana {
     font-size: 30px;
@@ -334,7 +334,7 @@ footer{
   		background-image: url('../img/home/images-03-01.jpg');
 	}
 	header .intro-text {
-    	padding-left: 35vh;
+    	padding-left: 260px;
 	}
 	.footer-text{
 		margin-left: 20px;
@@ -344,14 +344,14 @@ footer{
 
 @media (max-width: 500px){
 	header .intro-text {
-    padding-left: 25vh;
+    padding-left: 200px;
 	}
 
 }
 
 @media (max-width: 440px){
 	header .intro-text {
-    	padding-left: 19vh;
+    	padding-left: 180px;
 	}
 
 }
@@ -361,7 +361,7 @@ footer{
 		height: 90px;
 	}	
 	header .intro-text {
-    	padding-left: 15vh;
+    	padding-left: 90px;
 	}
 	.intro-lead-in{
 		font-size: 18px;
